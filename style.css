@@ -286,7 +286,7 @@ border-radius: 5px;
 text-align: center;
 letter-spacing: 1px;
 }
-.btn-nav li > a:hover, a.btn:hover {color: #fff; background: #c95752;}
+.btn-nav li > a:hover, a.btn:hover {color: #fff; background: #8978c0;}
 .sugar-container .btn-nav li > a, .sugar-container .btn {background-color: #fff; color: #333;}
 .sugar-container .btn-nav li > a:hover, .sugar-container a.btn:hover {background: #ddd; color: #333;}
 
