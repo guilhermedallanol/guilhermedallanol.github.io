@@ -408,6 +408,7 @@ jQuery(document).ready(function ($) {
 				url: '//formspree.io/guilherme.dallanol@gmail.com',
 				data: $(form).serialize(),
 				type: 'POST'
+        dataType: 'json'
 			})
 			.done(function() { 
 				confirmbox.fadeIn(500).delay(2500).fadeOut(500); 
