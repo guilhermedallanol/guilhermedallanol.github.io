@@ -371,7 +371,7 @@ jQuery(document).ready(function ($) {
 		$(this).find('input.mandatory,textarea.mandatory').each(function(){
 			var fieldvalue = trim($(this).val());
 			var errorfield = $(this).next('.error-message');
-			
+
 			if(fieldvalue == ''){
 				$(this).addClass('error');
 				errorfield.show();
@@ -405,7 +405,7 @@ jQuery(document).ready(function ($) {
 			var errorbox = $(this).find('.email-error');
 	
 			$.ajax({
-				url: emailurl,
+				url: '//formspree.io/guilherme.dallanol@gmail.com',
 				data: $(form).serialize(),
 				type: 'POST'
 			})
