@@ -407,7 +407,7 @@ jQuery(document).ready(function ($) {
 			$.ajax({
 				url: '//formspree.io/guilherme.dallanol@gmail.com',
 				data: $(form).serialize(),
-				type: 'POST'
+				type: 'POST',
         dataType: 'json'
 			})
 			.done(function() { 
